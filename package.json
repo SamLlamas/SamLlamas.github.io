@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,8 @@
   "license": "ISC",
   "engines": {
     "node": "8.11.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
