@@ -146,7 +146,6 @@ border-left: 1px solid #111;
 /* Header Wrap */
 #headerwrap {
 	background: url(https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/img/header.jpg?raw=true) no-repeat center top;
-	margin-top: 60px;
 	padding-top:140px;
 	text-align:center;
 	background-attachment: relative;
@@ -196,6 +195,46 @@ border-left: 1px solid #111;
 	vertical-align: middle;
 }
 
+/* skills */
+/* Expertise */
+.ijl-expertise {
+    border-radius: 6px;
+}
+
+.row .col {
+	float: left;
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+	padding: 0 0.75rem;
+	min-height: 1px;
+  }
+
+.row .col.s10 {
+	width: 83.3333333333%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+  }
+
+  .row .col.offset-s1 {
+	margin-left: 8.3333333333%;
+  }
+
+  .center, .center-align {
+	text-align: center;
+  }
+
+
+.material-icons {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: 'liga';
+     -moz-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+
+.skills {
+	list-style-type: none;
+}
 
 #skillswrap {
 	background: #2c3e50;
@@ -205,7 +244,8 @@ border-left: 1px solid #111;
 }
 
 #skillswrap h5,
-#skillswrap p {
+#skillswrap p,
+#skillswrap h3 {
 	color: white;
 }
 
@@ -284,3 +324,6 @@ sm {
 .workhistory {
 	margin: 2.5% auto;
 }
+
+
+	

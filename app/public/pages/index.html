@@ -15,6 +15,7 @@
     <!-- Google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">Z
     <!-- jQuery 1.1.2 -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <!-- Chart.js 1.0.1 -->
@@ -77,7 +78,7 @@
             <div class="row centered">
                 <div class="col-lg-12">
                     <h1>Samuel Llamas</h1>
-                    <h3>Web Developer | Sam.llamas@utexas.edu</h3>
+                    <h3 id = "test">Web Developer </h3>
                 </div>
                 <!--/.col-lg-12 -->
             </div>
@@ -131,7 +132,7 @@
                 </div>
                 <div class="col-lg-3">
                     <p>
-                        <sm>2013-08 - 2017-05</sm>
+                        <sm>08/2013 - 05/2017</sm>
                         <br/>
                     </p>
                 </div>
@@ -172,8 +173,8 @@
                     </p>
                     <p>
                         <more> <ul>
-                            <li>Providing friendly customer service while filling out orders</li>
-                            <li> Cold-calling and emailing companiesto obtain catering orders </li> <li>Creating administrative documents for the company </li> 
+                            <li>Providing friendly customer service while filling out orders.</li>
+                            <li>Cold-calling and emailing companies to obtain catering orders.</li> <li>Creating administrative documents for the company </li> 
                             <li>Researching and utilizing technologies that'd benefit the company as well as maintaining them.</li>
 
                         </more> </ul>
@@ -181,7 +182,7 @@
                 </div>
                 <div class="col-lg-3">
                     <p>
-                        <sm>02/2017 - 05/2018</sm>
+                        <sm>06/2016 - 07/2016</sm>
                     </p>
                 </div>
                 <div class="col-lg-6 col-lg-offset-3">
@@ -192,7 +193,7 @@
                     </p>
                     <p>
                         <more><ul> 
-                            <li>Lead recruitment within the Schools of Communication, Liberal Arts, as well as working professionals </li>
+                            <li>Lead recruitment within the Schools of Communication, Liberal Arts, as well as working professionals. </li>
                             <li>Volunteer at 3 Day Start up and help participants during the program. </li>
                         </more></ul>
                     </p>
@@ -200,6 +201,26 @@
                 <div class="col-lg-3">
                     <p>
                         <sm>08/2015 - 03/2017</sm>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-lg-offset-3 ">
+                    <p>
+                        <t>Consulting Intern</t>
+                        <br/>Plexus Consulting
+                        <br/>
+                    </p>
+                    <p>
+                        <more> <ul>
+                            <li>Observe and analyze business practices to find and correct inefficiencies. </li>
+                            <li>Provide assessment of client's operations to CEO</li> <li>Creating administrative documents for the company. </li> 
+                            <li>work in various departments to become well rounded and have a solid understanding of the companies functions. </li>
+
+                        </more> </ul>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <p>
+                        <sm>02/2017 - 05/2018</sm>
                     </p>
                 </div>
 
@@ -215,109 +236,91 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-lg-offset-1">
-                    <h5>SKILLS</h5>
+                        <h5>SKILLS</h5>
+                    </div>
+                <div class="col s6 m4 l3">
+                    <div class="row">
+                        <div class="ijl-expertise col s10 offset-s1 center-align">
+                            <h3><i class="material-icons">devices</i> Front End</h3>
+
+                            <ul class = "skills">
+                                <li>HTML 5</li>
+                                <li>CSS 3</li>
+                                <li>JavaScript ES6</li>
+                                <li>Bootstrap 4</li>
+                                <li>Handlebars</li>
+                                <li>jQuery</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 centered ">
-                    <canvas id="HTML" height="130" width="130"></canvas>
-                    <p>HTML</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 70,
-                            color: "#1abc9c"
-                        },
-                        {
-                            value: 30,
-                            color: "#ecf0f1"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("HTML").getContext("2d")).Doughnut(doughnutData);
-                    </script>
+
+                <div class="col s6 m4 l3">
+                    <div class="row">
+                        <div class="ijl-expertise col s10 offset-s1 center-align">
+                            <h3><i class="material-icons">code</i> Back End</h3>
+
+                            <ul class = "skills">
+                                <li>Node</li>
+                                <li>Express</li>
+                                <li>AWS</li>
+                                <li>Google APIs</li>
+                                <li>Firebase</li>
+                                <li>MongoDB</li>
+                                <li>Mongoose</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                                <li>PostgreSQL</li>
+                                <li>Sequelize</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 centered ">
-                    <canvas id="CSS" height="130" width="130"></canvas>
-                    <p>CSS</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 60,
-                            color: "#1abc9c"
-                        },
-                        {
-                            value: 40,
-                            color: "#ecf0f1"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("CSS").getContext("2d")).Doughnut(doughnutData);
-                    </script>
+
+                <div class="col s6 m4 l3">
+                    <div class="row">
+                        <div class="ijl-expertise col s10 offset-s1 center-align">
+                            <h3><i class="material-icons">library_add</i> Extras</h3>
+
+                            <ul class = "skills">
+                                <li>Python</li>
+                                <li>Matlab</li>
+                                <li>Git</li>
+                                <li>Heroku</li>
+                                <li>Markdown</li>
+                                <li>R Studio</li>
+                                <li>Swift</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 centered ">
-                    <canvas id="Javascript" height="130" width="130"></canvas>
-                    <p>Javascript</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 80,
-                            color: "#1abc9c"
-                        },
-                        {
-                            value: 20,
-                            color: "#ecf0f1"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("Javascript").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                </div>
-                <div class="col-lg-3 centered col-lg-offset-3">
-                    <canvas id="Node" height="130" width="130"></canvas>
-                    <p>Node</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 70,
-                            color: "#1abc9c"
-                        },
-                        {
-                            value: 30,
-                            color: "#ecf0f1"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("Node").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                </div>
-                <div class="col-lg-3 centered ">
-                    <canvas id="SQL" height="130" width="130"></canvas>
-                    <p>SQL</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 80,
-                            color: "#1abc9c"
-                        },
-                        {
-                            value: 20,
-                            color: "#ecf0f1"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("SQL").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                </div>
-                <div class="col-lg-3 centered ">
-                    <canvas id="React" height="130" width="130"></canvas>
-                    <p>React</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 50,
-                            color: "#1abc9c"
-                        },
-                        {
-                            value: 50,
-                            color: "#ecf0f1"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("React").getContext("2d")).Doughnut(doughnutData);
-                    </script>
+
+                <div class="col s6 m12 l3">
+                    <div class="row">
+                        <div class="ijl-expertise col s10 offset-s1 m6 l10 offset-l1 center-align">
+                            <h3><i class="material-icons">people</i> Moreover...</h3>
+
+                            <ul class = "skills">
+                                <li>Adaptability</li>
+                                <li>Public Speaking</li>
+                                <li>Leadership</li>
+                                <li>Teaching</li>
+                                <li>Team Building</li>
+                                <li>Mediation</li>
+                                <li>Analytical</li>
+                            </ul>
+                        </div>
+
+                        <div class="ijl-expertise col s10 offset-s1 m6 l10 offset-l1 center-align">
+                            <h3><i class="material-icons">flip_to_back</i> Once upon a time...</h3>
+
+                            <ul class = "skills">
+                                <li>C#</li>
+                                <li>Java</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!--/.row -->
@@ -384,19 +387,14 @@
                     </div>
                     <div class="col-lg-6 ">
                         <p>
-                            <t>Email</t>
-                            <br/> Sam.llamas@utexas.edu
-                            <br/>
+                            <t>Email: </t> Sam.llamas@utexas.edu
+                            
                         </p>
                         <p>
-                            <t>Address</t>
-                            711 W 26th St. Apt 306.
-                            <br/>
+                            <t>Address: </t> 711 W 26th St. Apt 306 Austin, Texas
                         </p>
                         <p>
-                            <t>Phone</t>
-                            <br/> +1 (956) 655-7751
-                            <br/>
+                            <t>Phone: </t>  +1 (956) 655-7751
                         </p>
                     </div>
                     <div class="col-lg-3 ">
